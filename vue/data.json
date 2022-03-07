@@ -1,6 +1,6 @@
 {
     "server":[
-        {"num":"1","ip":"101.34.169.211","application_address":"","server_name":" Administrator","server_password":"7C*Mfb4K2_8jw})"},
+        {"num":"1","ip":"101.34.169.211","application_address":"","server_name":" Administrator","server_password":""},
         {"num":"2","ip":"","application_address":"","server_name":"","server_password":""},
         {"num":"3","ip":"","application_address":"","server_name":"","server_password":""},
         {"num":"4","ip":"","application_address":"","server_name":"","server_password":""}
