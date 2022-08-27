@@ -1,6 +1,6 @@
-<div class="banner">
+<div  style="display: flex;">
 	{% for item in site.data.navigation %}
-	<div class="p-2 bg-primary">
+	<div class="p-2 bg-primary banner">
 <nav>
 	<a href="{{ item.link }}" {% if page.url == item.link %}style="color:red;"{% endif %}>
 	   {{ item.name }}
