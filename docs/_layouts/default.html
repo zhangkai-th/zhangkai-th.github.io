@@ -22,8 +22,13 @@
   </style>
   </head>
   <body>
-	  <div><img src="/assets/image/bruceli.jpg" style="height:400px" class="img-responsive center-block" /></div>
+	  <div><img id="my_img" src="/assets/image/bruceli.jpg" style="height:400px" class="img-responsive center-block" /></div>
 	  <div class="container">{% include navigation.html %}</div>
 	  <div class='container'>{{ content }}</div>
+	  <script type="text/javascript">
+		  $(window.load(function(){
+#("my_img").hide()
+				    }))
+	  </script>
   </body>
 </html>
