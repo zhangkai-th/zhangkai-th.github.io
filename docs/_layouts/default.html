@@ -27,7 +27,10 @@
 	  <div class='container'>{{ content }}</div>
 	  <script type="text/javascript">
 		  $(window).load(function(){
+					    $('body').oneTime('60s','A',function(){
+
                             $("#my_img").hide()
+							      })
 				    })
 	  </script>
   </body>
